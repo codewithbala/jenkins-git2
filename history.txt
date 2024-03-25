@@ -1,1000 +1,1000 @@
- 1046  docker exec-it mysql sh
- 1047  docker exec -it mysql sh
- 1048  docker ps
- 1049  docker exec -it sh
- 1050  docker exec -it 04a4b3193ed9fc65453564d21bbc93cf26106c2c5ea8a19e8c3b6ccf0a8f218d sh
- 1051  docker run -d mysql
- 1052  docker ps
- 1053  docker run -d -p 91:81 mysql 
- 1054  docker run -d -p 90:81 mysql 
- 1055  docker run -d -p 95:80 mysql 
- 1056  docker run -d -p 90:80 nginx
- 1057  docker pull tomcat
- 1058  docker run -d -p 9000:80 tomcat
- 1059  docker ps
- 1060  docker run -d tomcat
- 1061  docker ps
- 1062  docker run -d -p 9000:80 tomcat
- 1063  docker ps
- 1064  docker exec -it 846bcffb0212 sh
- 1065  history
- 1066  exit
- 1067  docker run -d -p 90:80 nginx
- 1068  clear
- 1069  mkdir /mdata
- 1070  docker run -d -v /mdata:/data nginx
- 1071  docker exec -it 5339eb9f2d
- 1072  docker exec -it 5339eb9f2d sh
- 1073  ls mdata
- 1074  ls
- 1075  ls /mdata/
- 1076  cd /mdata
- 1077  ls
- 1078  vi Dockerfile
- 1079  docker build -t myimg .
- 1080  ls
- 1081  docker build -t myimg -f Dockerfile
- 1082  cd ..
- 1083  docker images
- 1084  docker login
- 1085  docker push sudhakarbala/myimg
- 1086  docker tag myimg sudhakarbala/myimg
- 1087  docker images
- 1088  docker push sudhakarbala/myimg
- 1089  docker run -d tomcat
- 1090  docker ps
- 1091  docker exec -it 48a675bc8438 sh
- 1092  netstat
- 1093  docker run -d -p 800:80 tomcat
- 1094  docker run -d nginx
- 1095  docker run -d -p 801:80 nginx
- 1096  exit
- 1097  clear
- 1098  cd /var/lib/jenkins/workspace/maven-jacoco100723/
- 1099  ll
- 1100  tree
- 1101  systemctl stop jenkins
- 1102  systemctl status jenkins
- 1103  systemctl start jenkins
- 1104  systemctl status jenkins
- 1105  cd /var/lib/jenkins/workspace/
- 1106  ls
- 1107  cd clover1
- 1108  ls
- 1109  cd target
- 1110  ll
- 1111  cd clover
- 1112  ll
- 1113  cd history
- 1114  ll
- 1115  cd ..
- 1116  tree
- 1117  clear
- 1118  cd ~/
- 1119  systemctl stop jenkins
- 1120  systemctl status jenkins
- 1121  clear
- 1122  exit
- 1123  systemctl stop jenkins
- 1124  exit
- 1125  systemctl start jenkins
- 1126  systemctl status jenkins
- 1127  clear
- 1128  cd var
- 1129  cd /var/lib/jenkins
- 1130  ll
- 1131  cd workspace
- 1132  cd StaticCodeAnalysis
- 1133  cd target
- 1134  clear
- 1135  tree
- 1136  clear
- 1137  cd ~/
- 1138  clear
- 1139  cd /opt/
- 1140  wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.8.zip
- 1141  root@BalaI7:/opt# unzip sonarqube-7.8.zip
- 1142  /opt/sonarqube/bin/linux-x86-64/sonar.sh start
- 1143  sudo su -
- 1144  exit
- 1145  systemctl stop jenkins
- 1146  systemctl status jenkins
- 1147  exit
- 1148  clear
- 1149  docker version
- 1150  curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.18.0/kind-linux-amd64
- 1151  chmod +x ./kind
- 1152  sudo mv ./kind /usr/local/bin/kind
- 1153  kind
- 1154  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
- 1155  chmod +x kubectl
- 1156  sudo mv  kubectl /usr/local/bin
- 1157  kind create cluster --name mykubenetescluster
- 1158  kubectl get nodes
- 1159  kubectl get pods
- 1160  kubectl get pod
- 1161  kubectl get ns
- 1162  exit
- 1163  clear
- 1164  exit
- 1165  clear
- 1166  git clone https://github.com/codewithbala/docker.git
- 1167  cd java-code1
- 1168  ls
- 1169  git clone https://github.com/codewithbala/java-code1.git
- 1170  ls
- 1171  cd java-code1/
- 1172  ls
- 1173  rm -rvf test*
- 1174  rm ttttt webhjook added added-file
- 1175  rm ttttt webhook added added-file
- 1176  ls
- 1177  rm -rf target/
- 1178  ls
- 1179  rm -rvf azure*
- 1180  ls
- 1181  rm -rvf git*
- 1182  ls
- 1183  rm -rvf scp* sonar*
- 1184  ll
- 1185  ls
- 1186  rm -rvf Doc* jEN* 
- 1187  rm -rvf Jen* 
- 1188  ls
- 1189  rm hhh newfile*
- 1190  ls
- 1191  rm t1 t2
- 1192  ll
- 1193  ls
- 1194  rm Rea*
- 1195  rm REA*
- 1196  LL
- 1197  ll
- 1198  ls
- 1199  cat pom.xml
- 1200  exit
- 1201  clear
- 1202  cd java-code1/
- 1203  ll
- 1204  ls
- 1205  java --version
- 1206  mvn --version
- 1207  mvn compile
- 1208  ll
- 1209  cd target
- 1210  ls
- 1211  cd ..
- 1212  ll
- 1213  mvn clean
- 1214  ls
- 1215  cd src
- 1216  ls
- 1217  cd com
- 1218  cd ..
- 1219  cd Jenkins-CICD_Bala/
- 1220  cd my-app/
- 1221  ls
- 1222  cd target
- 1223  ls
- 1224  cd ~/
- 1225  netstat -tnlp | grep 8
- 1226  wget https://downloads.apache.org/tomcat/tomcat-8/v8.5.91/bin/apache-tomcat-8.5.91.tar.gz.sha512
- 1227  ls
- 1228  tar -xvf apache-tomcat-8.5.91.tar.gz.sha512
- 1229  cd bin
- 1230  ./startup.sh
- 1231  cd ~/
- 1232  systemctl stop jenkins
- 1233  systemctl status jenkins
- 1234  cd apache-tomcat-8.5.8
- 1235  cd apache-tomcat-8.5.89
- 1236  cd bin
- 1237  ./startup.sh 
- 1238  ls
- 1239  cd ..
- 1240  ls
- 1241  cd conf
- 1242  ls
- 1243  nano server.xml
- 1244  cd ..
- 1245  cd bin
- 1246  ./startup.sh 
- 1247  ls
- 1248  ./shutdown.sh 
- 1249  ./startup.sh 
- 1250  cd ..
- 1251  cd webapps/
- 1252  ls
- 1253  pwd
- 1254  cd ..
- 1255  cd Jenkins-CICD_Bala/
- 1256  cd my-app/
- 1257  ls
- 1258  cd target/
- 1259  ls
- 1260  cp my-app-1.0-SNAPSHOT.jar /root/apache-tomcat-8.5.89/webapps
- 1261  cd ~/
- 1262  cd apache-tomcat-8.5.89
- 1263  cd webapps/
- 1264  ls
- 1265  cd ..
- 1266  ls
- 1267  cd conf
- 1268  ls
- 1269  nano tomcat-users.xml
- 1270  cd ~/
- 1271  docker run -d
- 1272  docker run --name some-nginx -d -p 80:80 nginx
- 1273  docker pull jenkins/jenkins
- 1274  docker images
- 1275  docker rmi jenkins/jenkins
- 1276  docker run nginx
- 1277  exit
- 1278  clear
- 1279  systemctl stop jenkins
- 1280  systemctl status jenkins
- 1281  clear
- 1282  docker images
- 1283  docker pull jenkins/jenkins
- 1284  docker rmi jenkins/jenkins
- 1285  docker images
- 1286  docker run nginx
- 1287  docker run -d nginx
- 1288  docker ps
- 1289  docker exec -it 75ca2980f5fa sh
- 1290  docker pull httpd
- 1291  docker run -d httpd
- 1292  docker ps
- 1293  docker exec -it e842baba3dbf sh
- 1294  docker exec 75ca2980f5fa env
- 1295  docker exec 75ca2980f5fa ls
- 1296  docker exec 75ca2980f5fa ls /etc
- 1297  docker logs 75ca2980f5fa
- 1298  docker run -d -p 90:80 nginx
- 1299  docker ps
- 1300  docker run -d -p 90:80 httpd
- 1301  docker run -d -p 91:80 httpd
- 1302  docker ps
- 1303  docker pull tomcat
- 1304  docker run -d -p 92:80 tomcat
- 1305  docker images
- 1306  docker exec -it  7af5900fcc06 sh
- 1307  docker exec -it 7af5900fcc06 sh
- 1308  docker ps
- 1309  docker exec -it 063ab19d9fb6 sh
- 1310  clear
- 1311  mvn --version
- 1312  mkdir mavenProject_ubuntu
- 1313  cd mavenProject_ubuntu/
- 1314  mvn archetype:generate
- 1315  tree
- 1316  ll
- 1317  cd bala
- 1318  ll
- 1319  cat pom.xml
- 1320  ll
- 1321  cd src
- 1322  ll
- 1323  cd main
- 1324  ll
- 1325  cd java
- 1326  ll
- 1327  cd in
- 1328  ll
- 1329  cat App.java
- 1330  cd ~/
- 1331  clear
- 1332  cd mavenProject_ubuntu/bala/src/
- 1333  ll
- 1334  cd test
- 1335  ll
- 1336  cd java
- 1337  ll
- 1338  cd in
- 1339  ll
- 1340  cat AppTest.java 
- 1341  cd~/
- 1342  cd ~/
- 1343  clear
- 1344  cd mavenProject_ubuntu/bala/src/
- 1345  tree
- 1346  cd ..
- 1347  tree
- 1348  cd bala
- 1349  tree
- 1350  mvn install
- 1351  tree
- 1352  ll
- 1353  cd target
- 1354  ll
- 1355  cd surefire-reports/
- 1356  ll
- 1357  cat TEST-in.AppTest.xml 
- 1358  cat in.AppTest.txt 
- 1359  cd ~/
- 1360  cd mavenProject_ubuntu/bala
- 1361  llk
- 1362  ll
- 1363  cat pom.xml
- 1364  tree
- 1365  cd src
- 1366  cd main
- 1367  cd java
- 1368  cd in
- 1369  ll
- 1370  cat App.java
- 1371  ll
- 1372  nano Util.java
- 1373  ll
- 1374  cat Util.java 
- 1375  nano App.java 
- 1376  cd ..
- 1377  mvn clean compile
- 1378  java bala.in.App
- 1379  ll
- 1380  cd target
- 1381  ll
- 1382  cd classes
- 1383  ll
- 1384  java bala.in.App
- 1385  cd in
- 1386  ll
- 1387  java bala.in.App
- 1388  java in.App
- 1389  cd ..
- 1390  java in.App
- 1391  cd..
- 1392  cd ..
- 1393  tree
- 1394  exit
- 1395  clear
- 1396  docker pull mysql
- 1397  docker images
- 1398  docker rmi mysql
- 1399  docker images
- 1400  docker run -d nginx
- 1401  docker ps
- 1402  docker stop nginx
- 1403  docker stop c010978f9767
- 1404  docker ps
- 1405  mkdir /containerdata
- 1406  docker run -d -v /containerdata:/data nginx
- 1407  docker exec -it b6d636dfe7
- 1408  docker exec -it b6d636dfe7 sh
- 1409  ls /containerdata
- 1410  cd containerdata
- 1411  cd /containerdata
- 1412  cd dir1
- 1413  cd /dir1
- 1414  nano dir1
- 1415  cat dir1
- 1416  cd ..
- 1417  docker exec -it b6d636dfe7
- 1418  docker exec -it b6d636dfe7 sh
- 1419  ls
- 1420  cd containerdata/
- 1421  vi Dockerfile
- 1422  cat Dockerfile 
- 1423  docker build -t myimage .
- 1424  ls
- 1425  docker images
- 1426  cd ..
- 1427  docker run -d -p 92:90 myimage
- 1428  docker ps
- 1429  docker exec -it b6d636dfe796 sh
- 1430  docker login
- 1431  docker tag myimage sudhakarbala/myimage
- 1432  docker images
- 1433  docker push sudhakarbala/myimage
- 1434  docker run -d sudhakarbala/myimage
- 1435  docker ps
- 1436  docker run -d --myimage myimagecontainer -p 92:80 myimage
- 1437  docker run -d --sudhakarbala myimagecontainer -p 92:80 myimage
- 1438  docker run -d --name myimagecontainer -p 92:80 myimage
- 1439  docker ps
- 1440  mkdir NodeJSDir
- 1441  cd NodeJSDir
- 1442  vi Dockerfile
- 1443  docker tag mynode sudhakarbala/mynode
- 1444  docker build -t mynode .
- 1445  cd ..
- 1446  docker images
- 1447  docker run -d --name mynode -p 92:80 mynode
- 1448  docker ps
- 1449  docker run -d --name mynodec -p 95:80 mynode
- 1450  docker ps
- 1451  clear
- 1452  exit
- 1453  wget https://download.llamameta.net/*?Policy=eyJTdGF0ZW1lbnQiOlt7InVuaXF1ZV9oYXNoIjoiPz9cdTAwMTM%7EVlx1MDAxOD8iLCJSZXNvdXJjZSI6Imh0dHBzOlwvXC9kb3dubG9hZC5sbGFtYW1ldGEubmV0XC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjkwNjU5OTk3fX19XX0_&Signature=swO0B2%7Em31ZBsKwPSfsJ51Omj9arQdOSJGjYZpghLs5IoE1xcqr-5vlf7NFWW8NDtctglK%7Ew%7EIEs%7EmtKRu74XsbBrqy9M1--UN7JlaUfC-51Zy4MsfwivTXbIyBmI3xKz5wces8xrBUQITEUHL7vbfRA4Tin717Z6n6YvbaqSmcYGXHdodM71LgdJBGl2MT0r0s74qqgDR10gS8pABmxP6UKV4wzKxEESoL2hJlxhXemq9dWHGBMjl5rlctniCJdk8ls5ZayGBQObSZ2oIfpfU2g2YKtwdnyz5sX3sLYkBgO5RSPtjm1tRi8yJLvTPqBoONWt5xUn6Z-6F3YQnK2jQ__&Key-Pair-Id=K15QRJLYKIFSLZ
- 1454  ls
- 1455  ./download.sh.
- 1456  git clone https://github.com/facebookresearch/llama.git
- 1457  ll
- 1458  ls llama
- 1459  cd llama
- 1460  ./download.sh.
- 1461  download.sh.
- 1462  /download.sh.
- 1463  wget download.sh
- 1464  ls
- 1465  cat index.html
- 1466  ls
- 1467  clear
- 1468  systemctl start jenkins
- 1469  systemctl status jenkins
- 1470  sudo apt install docker.io -y
- 1471  sudo systemctl start docker
- 1472  sudo systemctl enable docker
- 1473  sudo systemctl start docker
- 1474  systemctl status docker
- 1475  exit
- 1476  cls
- 1477  clear
- 1478  sudo systemctl status docker
- 1479  cd /opt
- 1480  git clone https://github.com/codewithbala/Jenkins-CICD_Bala.git
- 1481  cd Jenkins-CICD_Bala/
- 1482  git switch python-flask-app
- 1483  git sttaus
- 1484  git status
- 1485  git add .
- 1486  git commit -m "add all"
- 1487  git switch python-flask-app
- 1488  sudo docker build -t flask-app:latest .
- 1489  ls
- 1490  sudo init 6
- 1491  cd opt
- 1492  cd /opt
- 1493  cd Jenkins-CICD_Bala/
- 1494  cd /opt
- 1495  cd Jenkins-CICD_Bala/
- 1496  docker images
- 1497  cd /opt
- 1498  cd Jenkins-CICD_Bala/
- 1499  docker images
- 1500  sudo systemctl start docker
- 1501  ls
- 1502  cd /opt
- 1503  cd Jenkins-CICD_Bala/
- 1504  docker images
- 1505  sudo docker run -d -p 5000:5000 flask-app
- 1506  sudo docker ps
- 1507  exit
- 1508  sudo systemctl status docker
- 1509  systemctl status docker
- 1510  clear
- 1511  exit
- 1512  sudo su -
- 1513  exit
- 1514  clear
- 1515  docker-compose
- 1516  docker-compose -v
- 1517  sudo systemctl -w vm.max_map_count=262144
- 1518  sudo sysctl -w vm.max_map_count=262144
- 1519  clear
- 1520  docker images
- 1521  docker build -d sudhakarbala/myimg:latest .
- 1522  docker build -t sudhakarbala/myimg:latest .
- 1523  docker build -t /sudhakarbala/myimg:latest .
- 1524  docker build -t sudhakarbala/myimg .
- 1525  docker build -t /sudhakarbala/myimg1:latest .
- 1526  docker build -t sudhakarbala/myimg1:latest .
- 1527  docker build -t sudhakarbala/myimg:latest .
- 1528  docker login
- 1529  docker push sudhakarbala/myimage:latest
- 1530  git clone https://github.com/codewithbala/ELKExample.git
- 1531  exit
- 1532  clear
- 1533  ll
- 1534  cd Jenkins-CICD_Bala/
- 1535  clear
- 1536  sudo apt install maven
- 1537  cd Jenkins-CICD_Bala/
- 1538  mvn --version
- 1539  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
- 1540  sudo apt install tree
- 1541  cd Jenkins-CICD_Bala/
- 1542  cd my-app
- 1543  ll
- 1544  cd src
- 1545  tree
- 1546  cd ..
- 1547  mvn install
- 1548  tree
- 1549  exit
- 1550  clear
- 1551  wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.87/bin/apache-tomcat-8.5.87.tar.gz
- 1552  wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.13/bin/apache-tomcat-10.1.13-fulldocs.tar.gz
- 1553  ll
- 1554  tar -xvf apache-tomcat-10.1.13-fulldocs.tar.gz
- 1555  ll
- 1556  cd tomcat-10.1-doc/
- 1557  ll
- 1558  wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.13/bin/apache-tomcat-10.1.13.tar.gz
- 1559  ll
- 1560  cd ..
- 1561  wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.13/bin/apache-tomcat-10.1.13.tar.gz
- 1562  tar -xvf apache-tomcat-10.1.13.tar.gz
- 1563  cd tomcat-10.1.13
- 1564  ll
- 1565  cd apache-tomcat-10.1.13/
- 1566  ll
- 1567  cd bin
- 1568  ll
- 1569  ./startup.sh
- 1570  cd ~/
- 1571  systemctl stop jenkins
- 1572  systemctl status jenkins
- 1573  systemctl start tomcat
- 1574  sudo systemctl status tomcat10
- 1575  clear
- 1576  cd apache-tomcat-10.1.13/bin
- 1577  ./startup
- 1578  ll\
- 1579  ll
- 1580  ./startup.sh
- 1581  cd ..
- 1582  ll
- 1583  cd conf
- 1584  ll
- 1585  vim server.xml
- 1586  cd .,.
- 1587  cd ..
- 1588  cd bin
- 1589  ll
- 1590  ./startup.sh 
- 1591  cd ..
- 1592  sudo apt update -y
- 1593  sudo apt install maven tomcat9 tomcat9-admin -y
- 1594  clear
- 1595  ll
- 1596  cd tomcat-10.1.13/
- 1597  cd apache-tomcat-10.1.13/
- 1598  cd bin
- 1599  ./startup.sh
- 1600  cd ..
- 1601  cd opt
- 1602  cd /opt
- 1603  ll
- 1604  cd Jenkins-CICD_Bala/
- 1605  ll
- 1606  cd Jenkins-CICD_Bala/
- 1607  ll
- 1608  cd ..
- 1609  ll
- 1610  cd ..
- 1611  ll
- 1612  sudo systemctl restart tomcat10
- 1613  sudo systemctl restart apache-tomcat10
- 1614  ll
- 1615  cd ~/
- 1616  ll
- 1617  cd apache-tomcat10.1.13
- 1618  cd apache-tomcat-10.1.13/
- 1619  cd bin
- 1620  ./startup.sh
- 1621  systemctl start jenkins
- 1622  cd ~/
- 1623  sytemctl start jenkins
- 1624  sudo systemctl start jenkins
- 1625  sudo systemctl status jenkins
- 1626  clear
- 1627  ll
- 1628  cd apache-tomcat-8.5.89/
- 1629  cd bin
- 1630  cd ..
- 1631  cd conf
- 1632  ll
- 1633  vim server.xml
- 1634  cd ..
- 1635  cd bin
- 1636  ll
- 1637  ./startup.sh 
- 1638  cd ~/
- 1639  clear
- 1640  ll
- 1641  cd apache-tomcat-10.1.13/
- 1642  cd bin
- 1643  ./shutdown.sh 
- 1644  ./startup.sh 
- 1645  cd ..
- 1646  cd webapps
- 1647  wget https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war
- 1648  ll
- 1649  cd ..
- 1650  cd ~/
- 1651  git clone https://github.com/codewithbala/java-code1.git
- 1652  cd java-code1/
- 1653  mvn install
- 1654  ll
- 1655  cd target
- 1656  ll
- 1657  cd ~/
- 1658  cd apache-tomcat-10.1.13/
- 1659  cd webaps
- 1660  cd webapps
- 1661  pwd
- 1662  cd ~/
- 1663  cd java-code1/
- 1664  cd target
- 1665  cp studentapp-2.5-SNAPSHOT.war /root/apache-tomcat-10.1.13/webapps
- 1666  cd ~/
- 1667  cd /apache-tomcat-10.1.13/webapps
- 1668  cd apache-tomcat-10.1.13/webapps
- 1669  ll
- 1670  cd ~/
- 1671  exit
- 1672  sudo su -
- 1673  exit
- 1674  clear\
- 1675  mkdir gradle_demo1
- 1676  mkdir gradle_demo2
- 1677  cd gradle_demo
- 1678  sudo apt install gradle
- 1679  cd gradle_demo2
- 1680  ll
- 1681  sudo apt install gradle -y
- 1682  cd ..
- 1683  cd gradle_demo
- 1684  clear
- 1685  ll
- 1686  gradle init
- 1687  tree
- 1688  cd..
- 1689  cd ..
- 1690  git clone https://github.com/codewithbala/demo123.git
- 1691  git tag -a v.0.1 -m "Stavle release version 0.1"
- 1692  git tag
- 1693  git push origin v.0.1
- 1694  git checkout v.0.1
- 1695  git clone https://github.com/codewithbala/Jenkins-CICD_Bala.git
- 1696  git checkout maven-project
- 1697  cd Jenkins-CICD_Bala/
- 1698  git checkout maven-project
- 1699  git add .
- 1700  git commit -am "changes done"
- 1701  git checkout maven-project
- 1702  git tag -a v.0.2 -m "version 2,0"
- 1703  git tag
- 1704  git push origin v.0.2
- 1705  exit
- 1706  git clone git clone https://github.com/codewithbala/ELKExample.git
- 1707  git clone https://github.com/codewithbala/ELKExample.git
- 1708  cd ELKExample/
- 1709  ls -alrt
- 1710  docker-compose version
- 1711  sudo sysctl -w vm.max_map_count=262144
- 1712  docker ps
- 1713  docker-compose up -d
- 1714  docker build -t springboot .
- 1715  docker run -d -p 81:8080 -v /var/log/:/var/log/  springboot
- 1716  docker ps -a --latest
- 1717  docker ps | grep springbootapp
- 1718  clear
- 1719  cd ..
- 1720  clear
- 1721  docker-compose -v
- 1722  cd ELKExample/
- 1723  ls -alrt
- 1724  sudo sysctl -w vm.max_map_count=262144
- 1725  docker ps
- 1726  docker-compose up -d
- 1727  docker ps
- 1728  exit
- 1729  ansible -version
- 1730  ansible --version
- 1731  clear
- 1732  ssh key-gen -t rsa
- 1733  ssh-keygen -t rsa
- 1734  cat  /root/.ssh/id_rsa
- 1735  cat /root/.ssh/id_rsa.pub
- 1736  cat /root/.ssh/id_rsa.pub >> .ssh/authorized_keys
- 1737  ssh localhost -p 42006
- 1738  ll
- 1739  cd .ssh/
- 1740  ll
- 1741  cat authorized_keys 
- 1742  ssh loaclhost -p 42006
- 1743  ssh localhost -p 42006
- 1744  cd ..
- 1745  sudo systemctl status ssh
- 1746  ssh root@localhost -p 42006
- 1747  netstat -tuln | grep 42006
- 1748  sudo systemctl restart ssh
- 1749  ssh localhost -p 42006
- 1750  ssh root@localhost -p 42006
- 1751  sudo systemctl status ssh
- 1752  exit
- 1753  vi /etc/ansible/hosts
- 1754  exit
- 1755  clear
- 1756  ssh localhost -p 42006
- 1757  ssh root@loaclhost -p 42006
- 1758  ssh root@localhost -p 42006
- 1759  ssh bala@localhost -p 42006
- 1760  ssh loaclhost -i  /root/.ssh/id_rsa -p 42006
- 1761  ssh localhost -i  /root/.ssh/id_rsa -p 42006
- 1762  ssh localhost -i  /root/.ssh/id_rsa -p 22
- 1763  exit
- 1764  cls
- 1765  clear
- 1766  sudo apt update
- 1767  ansible --version
- 1768  ssh-keygen -t rsa
- 1769  cat /home/root/.ssh/id_rsa
- 1770  cat /root/.ssh/id_rsa
- 1771  cat .ssh/id_rsa.pub >> .ssh/authorized_keys
- 1772  ssh localhost -i /root/.ssh/id_rsa -p 22
- 1773  exit
- 1774  cls
- 1775  clear
- 1776  sudo apt-get install python-pip
- 1777  docker-compose -v
- 1778  sudo sysctl -w vm.max_map_count = 262144
- 1779  sudo sysctl -w vm.max_map_count=262144
- 1780  cls
- 1781  clear
- 1782  sudo pip install docker-compose
- 1783  docker-compose version
- 1784  git clone https://github.com/codewithbala/ELKExample.git
- 1785  cd ELKExample/
- 1786  ls -alrt
- 1787  cat Jenkinsfile 
- 1788  cat Dockerfile
- 1789  clear
- 1790  docker ps
- 1791  docker-compose up -d
- 1792  docker build -t springbootboot .
- 1793  systemctl stop jenkins
- 1794  systemctl status jenkins
- 1795  docker run -d -p 81:8080 -v /var/log/:/var/logspringboot
- 1796  docker run -d -p 81:8080 -v /var/log/:/var/log/ springboot
- 1797  docker ps -a --latest
- 1798  docker ps | grep springbootapp
- 1799  curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-6.8.23-amd64.deb
- 1800  sudo dpkg -i metricbeat-6.8.23-amd64.deb
- 1801  output.elasticsearch:
- 1802  setup.kibana:
- 1803  exit
- 1804  brew install --cask vscodium
- 1805  sudo apt update
- 1806  sudo apt install codium
- 1807  snap install codium
- 1808  sudo apt install brew
- 1809  clear
- 1810  git config --global init.defaultBranch main
- 1811  git config --global --list
- 1812  mkdir learngit
- 1813  ls
- 1814  cd learngit/
- 1815  git init
- 1816  ls
- 1817  ll
- 1818  git status
- 1819  touch git.txt
- 1820  ls
- 1821  git status
- 1822  git add git.txt
- 1823  git status
- 1824  git commit -m "first git commit"
- 1825  git status
- 1826  vim git.txt
- 1827  git status
- 1828  git add git.txt
- 1829  git status
- 1830  git commit -m "second commit"
- 1831  vim git.txt
- 1832  ssh-keygen
- 1833  ll
- 1834  cd ..
- 1835  ll
- 1836  /.ssh
- 1837  cd /.ssh
- 1838  cd /root/.ssh/
- 1839  ll
- 1840  cat id_rsa.pub
- 1841  exit
- 1842  sudo su -
- 1843  exit
- 1844  git clone git@github.com:codewithbala/Spoon-Knife.git
- 1845  ls
- 1846  mkdir spoon-knife
- 1847  cd spoon-knife/
- 1848  git clone git@github.com:codewithbala/Spoon-Knife.git
- 1849  ll
- 1850  cd Spoon-Knife/
- 1851  ll
- 1852  cat index.html
- 1853  vim index.html
- 1854  git init
- 1855  git add .
- 1856  git commit -m "Bala adde a div and h1"
- 1857  git push
- 1858  cd ..
- 1859  git add .
- 1860  git init
- 1861  git add .
- 1862  cd Spoon-Knife/
- 1863  ll
- 1864  cat index.html 
- 1865  git add index.html
- 1866  git status
- 1867  git branch
- 1868  cd ..
- 1869  git branch
- 1870  cd Spoon-Knife/
- 1871  git branch
- 1872  git branch balaknife
- 1873  git branch
- 1874  git switch balaknife
- 1875  git branch
- 1876  git add .
- 1877  git commit -am "Hello from Bala"
- 1878  vim index.html
- 1879  git add .
- 1880  git commit -am "Hello from Bala again"
- 1881  git push
- 1882  git push --set-upstream origin balaknife
- 1883  cd ..
- 1884  git clone git@github.com:octocat/Spoon-Knife.git
- 1885  cd ..
- 1886  top
- 1887  pwd
- 1888  docker
- 1889  clear
- 1890  cat /etc/os-release
- 1891  docker
- 1892  sudo docker info
- 1893  sudo docker run hello-world1
- 1894  sudo docker run hello-world
- 1895  sudo docker images
- 1896  sudo docker run busybox ls
- 1897  sudo docker search nginx
- 1898  clear
- 1899  sudo docker images
- 1900  sudo docker pull httpd
- 1901  sudo docker images
- 1902  sudo docker pull httpd:alpine
- 1903  sudo docker pull nginx:alpine
- 1904  sudo visudo
- 1905  sudo docker images
- 1906  docker ps
- 1907  docker run nginx
- 1908  docker run nginx:aplhine
- 1909  docker run nginx:alpine
- 1910  docker ps
- 1911  docker images
- 1912  docker run nginx
- 1913  docker ps
- 1914  docker run nginx/alpine
- 1915  sudo docker run nginx/alpine
- 1916  sudo docker pull nginx:alpine
- 1917  sudo docker run nginx:alpine
- 1918  sudo docker run nginx:alpine 32768:80
- 1919  docker run -i -t -p 80:80 nginx
- 1920  docker run -d -p 80:80 nginx
- 1921  docker ps
- 1922  docker run -d -P nginx
- 1923  docker ps
- 1924  docker run -d -name nginx web-server -P nginx
- 1925  docker run -d --name=nginx-web-server -P nginx
- 1926  docker ps
- 1927  docker create nginx
- 1928  docker ps -a
- 1929  docker ps
- 1930  docker start 7a5368f23980
- 1931  docker ps
- 1932  docker pause 7a5368f23980
- 1933  docker stop 7a5368f23980
- 1934  docker ps -a
- 1935  docker ps
- 1936  docker run nginx:alpine 32768:80
- 1937  clear
- 1938  docker pull debian:bookworm-slim
- 1939  docker images
- 1940  systemctl stop jenkins
- 1941  java --version
- 1942  systemctl stop jenkins
- 1943  git clone https://github.com/codewithbala/java-calculator.git
- 1944  cd java-calcu
- 1945  cd java-calculator/
- 1946  docker build -t calculator-java-app:v1
- 1947  docker build -t calculator-java-app:v1 .
- 1948  ls
- 1949  cd my-calculator/
- 1950  docker build -t calculator-java-app:v1 .
- 1951  cd ..
- 1952  rm java-calculator
- 1953  rmdir -r java-calculator
- 1954  rm -r java-calculator/
- 1955  git clone https://github.com/codewithbala/manik-calculator.git
- 1956  ls
- 1957  cd manik-calculator/
- 1958  docker build -t calculator-java-app:v1 .
- 1959  systemctl stop jenkins
- 1960  git clone https://github.com/codewithbala/Jenkins-CICD_Bala.git
- 1961  cd Jenkins-CICD_Bala/
- 1962  ll
- 1963  chmod 777 jenkins-installation-ubuntu.sh 
- 1964  systemctl status jenkins
- 1965  systemctl start jenkins
- 1966  clear
- 1967  systemctl status jenkins
- 1968  systemctl start jenkins
- 1969  systemctl status jenkins
- 1970  systemctl stop jenkins
- 1971  exit
- 1972  clear
- 1973  cd java-code1/
- 1974  ll
- 1975  cd target/
- 1976  ll
- 1977  java --version
- 1978  mvn --version
- 1979  cd  ..
- 1980  cd ..
- 1981  systemctl status jenkins
- 1982  systemctl stop jenkins
- 1983  systemctl status jenkins
- 1984  ll
- 1985  cd tomcat-10.1-doc/
- 1986  ll
- 1987  cd bin
- 1988  cd..
- 1989  cd ..
- 1990  cd apache-tomcat-10.1.13/
- 1991  cd bin
- 1992  ./startup.sh 
- 1993  ./shutdown.sh 
- 1994  cd ..
- 1995  cd apache-tomcat-8.5.89
- 1996  cd bin
- 1997  ./startup.sh 
- 1998  cd ..
- 1999  sudo apt update
- 2000  sudo apt install tomcat9
- 2001  systemctl start jenkins
- 2002  systemctl status jenkins
- 2003  clear
- 2004  git clone https://github.com/codewithbala/java-code1.git
- 2005  cd java-code1
- 2006  mvn install
- 2007  cd target
- 2008  ll
- 2009  cd..
- 2010  cd ..
- 2011  ll
- 2012  cd webapps
- 2013  pwd
- 2014  cd ..
- 2015  cd java-code1
- 2016  cd target
- 2017  cp /root/apache-tomcat-10.1.13/webappsstudentapp-2.5-SNAPSHOT.warstudentapp-2.5-SNAPSHOT.war
- 2018  cd studentapp-2.5-SNAPSHOT.war /root/apache-tomcat-10.1.13/webapps
- 2019  cp studentapp-2.5-SNAPSHOT.war /root/apache-tomcat-10.1.13/webapps
- 2020  cd ..
- 2021  cd apache-tomcat-10.1.13
- 2022  cd webapps
- 2023  ll
- 2024  cd ..
- 2025  cd bin
- 2026  ll
- 2027  ./startup.sh 
- 2028  systemctl stop jenkins
- 2029  systemctl status jenkins
- 2030  ./startup.sh 
- 2031  systemctl start jenkins
- 2032  systemctl status jenkins
- 2033  cd ~/
- 2034  ssh-keygen
- 2035  cd ~/.ssh/
- 2036  ll
- 2037  cat id_rsa.pub
- 2038  cd ..
- 2039  git clone git@github.com:codewithbala/jenkins-git2.git
- 2040  cd jenkins-git2/
- 2041  ll
- 2042  git status
- 2043  touch history.txt
- 2044  ll
- 2045  history > history.txt
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+h
+e
+d
+c
+m
+d
+d
+d
+l
+l
+l
+c
+l
+v
+d
+l
+d
+c
+d
+d
+d
+d
+d
+d
+d
+d
+d
+n
+d
+d
+d
+e
+c
+c
+l
+t
+s
+s
+s
+s
+c
+l
+c
+l
+c
+l
+c
+l
+c
+l
+c
+t
+c
+c
+s
+s
+c
+e
+s
+e
+s
+s
+c
+c
+c
+l
+c
+c
+c
+c
+t
+c
+c
+c
+c
+w
+r
+/
+s
+e
+s
+s
+e
+c
+d
+c
+c
+s
+k
+c
+c
+s
+k
+k
+k
+k
+k
+e
+c
+e
+c
+g
+c
+l
+g
+l
+c
+l
+r
+r
+r
+l
+r
+l
+r
+l
+r
+l
+r
+l
+l
+r
+r
+l
+r
+l
+r
+l
+l
+r
+r
+L
+l
+l
+c
+e
+c
+c
+l
+l
+j
+m
+m
+l
+c
+l
+c
+l
+m
+l
+c
+l
+c
+c
+c
+c
+l
+c
+l
+c
+n
+w
+l
+t
+c
+.
+c
+s
+s
+c
+c
+c
+.
+l
+c
+l
+c
+l
+n
+c
+c
+.
+l
+.
+.
+c
+c
+l
+p
+c
+c
+c
+l
+c
+l
+c
+c
+c
+c
+l
+c
+l
+c
+l
+n
+c
+d
+d
+d
+d
+d
+d
+e
+c
+s
+s
+c
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+c
+m
+m
+c
+m
+t
+l
+c
+l
+c
+l
+c
+l
+c
+l
+c
+l
+c
+l
+c
+c
+c
+c
+l
+c
+l
+c
+l
+c
+l
+c
+c
+c
+c
+c
+t
+c
+t
+c
+t
+m
+t
+l
+c
+l
+c
+l
+c
+c
+c
+c
+l
+l
+c
+t
+c
+c
+c
+c
+l
+c
+l
+n
+l
+c
+n
+c
+m
+j
+l
+c
+l
+c
+l
+j
+c
+l
+j
+j
+c
+j
+c
+c
+t
+e
+c
+d
+d
+d
+d
+d
+d
+d
+d
+d
+m
+d
+d
+d
+l
+c
+c
+c
+c
+n
+c
+c
+d
+d
+l
+c
+v
+c
+d
+l
+d
+c
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+m
+c
+v
+d
+d
+c
+d
+d
+d
+d
+d
+c
+e
+w
+l
+.
+g
+l
+l
+c
+.
+d
+/
+w
+l
+c
+l
+c
+s
+s
+s
+s
+s
+s
+s
+e
+c
+c
+s
+c
+g
+c
+g
+g
+g
+g
+g
+g
+s
+l
+s
+c
+c
+c
+c
+c
+d
+c
+c
+d
+s
+l
+c
+c
+d
+s
+s
+e
+s
+s
+c
+e
+s
+e
+c
+d
+d
+s
+s
+c
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+g
+e
+c
+l
+c
+c
+s
+c
+m
+m
+s
+c
+c
+l
+c
+t
+c
+m
+t
+e
+c
+w
+w
+l
+t
+l
+c
+l
+w
+l
+c
+w
+t
+c
+l
+c
+l
+c
+l
+.
+c
+s
+s
+s
+s
+c
+c
+.
+l
+l
+.
+c
+l
+c
+l
+v
+c
+c
+c
+l
+.
+c
+s
+s
+c
+l
+c
+c
+c
+.
+c
+c
+c
+l
+c
+l
+c
+l
+c
+l
+c
+l
+s
+s
+l
+c
+l
+c
+c
+c
+.
+s
+c
+s
+s
+s
+c
+l
+c
+c
+c
+c
+l
+v
+c
+c
+l
+.
+c
+c
+l
+c
+c
+.
+.
+c
+c
+w
+l
+c
+c
+g
+c
+m
+l
+c
+l
+c
+c
+c
+c
+p
+c
+c
+c
+c
+c
+c
+c
+l
+c
+e
+s
+e
+c
+m
+m
+c
+s
+c
+l
+s
+c
+c
+c
+l
+g
+t
+c
+c
+g
+g
+g
+g
+g
+g
+g
+c
+g
+g
+g
+g
+g
+g
+g
+e
+g
+g
+c
+l
+d
+s
+d
+d
+d
+d
+d
+d
+c
+c
+c
+d
+c
+l
+s
+d
+d
+d
+e
+a
+a
+c
+s
+s
+c
+c
+c
+s
+l
+c
+l
+c
+s
+s
+c
+s
+s
+n
+s
+s
+s
+s
+e
+v
+e
+c
+s
+s
+s
+s
+s
+s
+s
+e
+c
+c
+s
+a
+s
+c
+c
+c
+s
+e
+c
+c
+s
+d
+s
+s
+c
+c
+s
+d
+g
+c
+l
+c
+c
+c
+d
+d
+d
+s
+s
+d
+d
+d
+d
+c
+s
+o
+s
+e
+b
+s
+s
+s
+s
+c
+g
+g
+m
+l
+c
+g
+l
+l
+g
+t
+l
+g
+g
+g
+g
+g
+v
+g
+g
+g
+g
+v
+s
+l
+c
+l
+/
+c
+c
+l
+c
+e
+s
+e
+g
+l
+m
+c
+g
+l
+c
+l
+c
+v
+g
+g
+g
+g
+c
+g
+g
+g
+c
+l
+c
+g
+g
+g
+c
+g
+c
+g
+g
+g
+g
+g
+g
+g
+v
+g
+g
+g
+g
+c
+g
+c
+t
+p
+d
+c
+c
+d
+s
+s
+s
+s
+s
+s
+c
+s
+s
+s
+s
+s
+s
+s
+d
+d
+d
+d
+d
+d
+d
+d
+d
+s
+s
+s
+s
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+c
+d
+d
+s
+j
+s
+g
+c
+c
+d
+d
+l
+c
+d
+c
+r
+r
+r
+g
+l
+c
+d
+s
+g
+c
+l
+c
+s
+s
+c
+s
+s
+s
+s
+e
+c
+c
+l
+c
+l
+j
+m
+c
+c
+s
+s
+s
+l
+c
+l
+c
+c
+c
+c
+c
+.
+.
+c
+c
+c
+.
+c
+s
+s
+s
+s
+c
+g
+c
+m
+c
+l
+c
+c
+l
+c
+p
+c
+c
+c
+c
+c
+c
+c
+c
+c
+l
+c
+c
+l
+.
+s
+s
+.
+s
+s
+c
+s
+c
+l
+c
+c
+g
+c
+l
+g
+t
+l
+h
+c
+g
+g
+g
+g
+g
+g
+h
